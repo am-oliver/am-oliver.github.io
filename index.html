@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Starter Template - Materialize</title>
+  <title>Aaron's Blog</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -32,55 +32,87 @@
     </div>
   </nav>
 
-  <div class="container left">
-    <img src="images/forest_tropical_waterfall-1920x1200.jpg" alt="banner" height="500" width="1425">
+  <!--<div class="container left">-->
+    <!--<img src="images/forest_tropical_waterfall-1920x1200.jpg" alt="banner" height="500" width="1425">-->
+  <!--</div>-->
+
+   <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="images/forest_tropical_waterfall-1920x1200.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Eventually he'll pick a name</h3>
+          <h5 class="light grey-text text-lighten-3">Probably.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/forest_tropical_waterfall-1920x1200.jpg"> <!-- random image -->
+      </li>
+      <li>
+        <img src="images/forest_tropical_waterfall-1920x1200.jpg"> <!-- random image -->
+      </li>
+    </ul>
   </div>
 
-
+  Ideas for blog links:
   <div class="container">
     <div class="section">
 
       <!--   Icon Section   -->
       <div class="row">
-        <div class="col s12 m4">
-          <div class="row">
-            <div class="col s12 m6">
-              <div class="card">
-                <div class="card-image">
-                  <img src="images/sample-1.jpg">
-                  <span class="card-title">Card Title</span>
-                  <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">favorite</i></a>
-                </div>
-                <div class="card-content">
-                  <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
-                    I require little markup to use effectively.</p>
-                </div>
-              </div>
+
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/forest_tropical_waterfall-1920x1200.jpg">
+              <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                      class="material-icons">favorite</i></a>
+            </div>
+            <div class="card-content">
+              <p>12 Interesting things about Jamaica</p>
             </div>
           </div>
         </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/forest_tropical_waterfall-1920x1200.jpg">
+              <a class="btn-floating halfway-fab waves-effect waves-light red">
+                <i class="material-icons">favorite</i></a>
+            </div>
+            <div class="card-content">
+              <p>How to rent when you don't know the language</p>
+            </div>
           </div>
         </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/forest_tropical_waterfall-1920x1200.jpg">
+              <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                      class="material-icons">favorite</i></a>
+            </div>
+            <div class="card-content">
+              <p>Making these a consistent height is hard</p>
+            </div>
           </div>
         </div>
+
       </div>
 
     </div>
-    <br><br>
+  </div>
+
+  <div class="fixed-action-btn horizontal">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">favorite</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating blue"><i class="material-icons">send</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">format_quote</i></a></li>
+    </ul>
   </div>
 
   <footer class="page-footer black darken-2">
@@ -93,8 +125,7 @@
           </div>
 
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
+        <div class="col l3 s12 right">
           <a class="white-text" href="#!"><img src="images/facebook-icon.png" alt="facebook" height="50" width="50"></a>
           <a class="white-text" href="#!"><img src="images/insta-icon.png" alt="instagram" height="42" width="42"></a>
         </div>
@@ -106,6 +137,8 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
+  <script>$(document).ready(function () {
+      $('.slider').slider();
+  });</script>
   </body>
 </html>
