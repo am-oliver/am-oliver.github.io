@@ -6,19 +6,37 @@
  * Made By MaterializeCSS.com
  */
 
-.icon-block {
-  padding: 0 15px;
+.deep-blue {
+  background-color: #324D5C !important;
 }
+
+.slider .indicators .indicator-item.active {
+  background-color: #F0CA4D;
+}
+
+.heart-pink {
+  background-color: #F53855 !important;
+}
+
+.footer-orange{
+  background-color: #E37B40 !important;
+}
+
+
+.icon-block {
+    padding: 0 15px;
+}
+
 .icon-block .material-icons {
-	font-size: inherit;
+    font-size: inherit;
 }
 
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-  }
+}
 
-  main {
+main {
     flex: 1 0 auto;
-  }
+}
